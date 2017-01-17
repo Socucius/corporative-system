@@ -8,8 +8,7 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -35,23 +34,26 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'slim-rails'
+gem 'devise'
 gem 'vuejs-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
   gem 'pry'
+  gem 'letter_opener'
 
-  gem 'rspec-rails'
-  gem 'factory_girl_rails'
-  gem 'faker'
-  gem 'shoulda-matchers'
-  gem 'shoulda-callback-matchers'
   gem 'capybara'
-  gem 'poltergeist'
-  gem 'selenium-webdriver'
   gem 'chromedriver-helper'
   gem 'database_cleaner'
+  gem 'factory_girl_rails'
+  gem 'faker'
+  gem 'poltergeist'
+  gem 'rspec-rails'
+  gem 'selenium-webdriver'
+  gem 'shoulda-matchers'
+  gem 'shoulda-callback-matchers'
 
   gem 'rack-mini-profiler'
 end
