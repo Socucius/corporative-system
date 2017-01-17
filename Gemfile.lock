@@ -133,6 +133,8 @@ GEM
       slop (~> 3.4)
     public_suffix (2.0.5)
     puma (3.6.2)
+    pundit (1.1.0)
+      activesupport (>= 3.0.0)
     rack (2.0.1)
     rack-mini-profiler (0.10.1)
       rack (>= 1.2.0)
@@ -267,6 +269,7 @@ DEPENDENCIES
   poltergeist
   pry
   puma (~> 3.0)
+  pundit
   rack-mini-profiler
   rails (~> 5.0.1)
   rspec-rails
