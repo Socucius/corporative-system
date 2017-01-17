@@ -42,17 +42,18 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
   gem 'pry'
+  gem 'letter_opener'
 
-  gem 'rspec-rails'
-  gem 'factory_girl_rails'
-  gem 'faker'
-  gem 'shoulda-matchers'
-  gem 'shoulda-callback-matchers'
   gem 'capybara'
-  gem 'poltergeist'
-  gem 'selenium-webdriver'
   gem 'chromedriver-helper'
   gem 'database_cleaner'
+  gem 'factory_girl_rails'
+  gem 'faker'
+  gem 'poltergeist'
+  gem 'rspec-rails'
+  gem 'selenium-webdriver'
+  gem 'shoulda-matchers'
+  gem 'shoulda-callback-matchers'
 
   gem 'rack-mini-profiler'
 end
