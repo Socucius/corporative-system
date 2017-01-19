@@ -10,6 +10,6 @@ class ProjectPolicy < ApplicationPolicy
   end
 
   def new?
-    new?
+    index?
   end
 end
