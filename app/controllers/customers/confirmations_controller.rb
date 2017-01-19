@@ -1,4 +1,5 @@
 class Customers::ConfirmationsController < Devise::ConfirmationsController
+  skip_after_action :verify_authorized
   # GET /resource/confirmation/new
   # def new
   #   super

@@ -1,4 +1,5 @@
 class Customers::RegistrationsController < Devise::RegistrationsController
+  skip_after_action :verify_authorized
   before_action :configure_sign_up_params
   before_action :configure_account_update_params
 

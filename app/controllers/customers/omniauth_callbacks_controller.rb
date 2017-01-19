@@ -1,4 +1,5 @@
 class Customers::OmniauthCallbacksController < Devise::OmniauthCallbacksController
+  skip_after_action :verify_authorized
   # You should configure your model like this:
   # devise :omniauthable, omniauth_providers: [:twitter]
 
