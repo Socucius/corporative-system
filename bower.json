@@ -15,7 +15,8 @@
     "tests"
   ],
   "dependencies": {
-    "vue": "latest"
+    "vue": "latest",
+    "bootstrap": "v4.0.0-alpha.6"
   }
 
 }

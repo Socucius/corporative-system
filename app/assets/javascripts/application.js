@@ -15,5 +15,7 @@
 //= require turbolinks
 
 //= require vue/dist/vue.min
+//= require tether
+//= require bootstrap
 
 //= require_tree .
