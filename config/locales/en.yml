@@ -23,3 +23,8 @@ en:
   projects:
     index: 'All projects'
     new: 'New project'
+    submit: 'Submit'
+
+    attributes:
+      name: 'Name'
+      description: 'Description'
