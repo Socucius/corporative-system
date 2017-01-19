@@ -6,4 +6,12 @@ class ApplicationController < ActionController::Base
   def current_user
     current_employee || current_customer
   end
+
+  def after_sign_in_path_for(resource)
+    if resource.is_a? Customer
+      projects_path
+    else
+      super
+    end
+  end
 end
