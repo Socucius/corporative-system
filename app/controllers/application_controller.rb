@@ -1,6 +1,7 @@
 class ApplicationController < ActionController::Base
   include Pundit
   after_action :verify_authorized, except: :index
+  rescue_from Pundit::NotAuthorizedError, with: :user_not_authorized
   protect_from_forgery with: :exception
 
   def current_user
@@ -13,5 +14,9 @@ class ApplicationController < ActionController::Base
     else
       super
     end
+  end
+
+  def user_not_authorized
+    redirect_to(root_path, status: 403)
   end
 end
