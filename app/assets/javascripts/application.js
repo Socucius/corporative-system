@@ -13,4 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+
+//= require vue/dist/vue.min
+
 //= require_tree .
