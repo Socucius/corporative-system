@@ -5,7 +5,11 @@ class ProjectPolicy < ApplicationPolicy
     end
   end
 
-  def new?
+  def index?
     user.is_a? Customer
+  end
+
+  def new?
+    new?
   end
 end
