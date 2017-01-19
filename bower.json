@@ -1,0 +1,17 @@
+{
+  "name": "corporative-system",
+  "homepage": "https://github.com/Socucius/corporative-system",
+  "authors": [
+    "Alexander Shagov"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -36,7 +36,6 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'devise'
 gem 'enumerize'
-gem 'vuejs-rails'
 gem 'slim-rails'
 gem 'pundit'
 gem 'simple_form'
