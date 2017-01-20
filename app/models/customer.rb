@@ -5,4 +5,6 @@ class Customer < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   validates :first_name, :last_name, presence: true
+
+  has_many :projects
 end
