@@ -17,5 +17,6 @@
 //= require vue/dist/vue.min
 //= require tether
 //= require bootstrap
+//= require ckeditor/init
 
 //= require_tree .

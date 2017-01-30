@@ -13,5 +13,6 @@ module CorporativeSystem
     # -- all .rb files in that directory are automatically loaded.
     config.i18n.default_locale = :en
     config.assets.paths << Rails.root.join('vendor', 'assets', 'components')
+    config.autoload_paths += %w(#{config.root}/app/models/ckeditor)
   end
 end

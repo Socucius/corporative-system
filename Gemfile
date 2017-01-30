@@ -34,8 +34,11 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'carrierwave'
+gem 'ckeditor'
 gem 'devise'
 gem 'enumerize'
+gem 'mini_magick'
 gem 'slim-rails'
 gem 'pundit'
 gem 'simple_form'

@@ -2,5 +2,5 @@
   h4 = t('projects.attributes.name')
   = f.input :name, label: false
   h4 = t('projects.attributes.description')
-  = f.input :description, as: :text, label: false
+  = f.input :description, as: :ckeditor, input_html: { ckeditor: { toolbar: 'Full' } }, label: false
   = f.button :submit, t('projects.submit')
