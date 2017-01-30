@@ -1,0 +1,6 @@
+= simple_form_for [:customer, @project] do |f|
+  h4 = t('projects.attributes.name')
+  = f.input :name, label: false
+  h4 = t('projects.attributes.description')
+  = f.input :description, as: :text, label: false
+  = f.button :submit, t('projects.submit')

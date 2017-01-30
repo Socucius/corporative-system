@@ -12,4 +12,8 @@ class ProjectPolicy < ApplicationPolicy
   def new?
     index?
   end
+
+  def create?
+    new?
+  end
 end
