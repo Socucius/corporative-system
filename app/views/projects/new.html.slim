@@ -1,9 +1,0 @@
-.container
-  .panel-heading
-    h3 = I18n.t('projects.new')
-  .panel-body
-    .form-group
-      input.form-control placeholder=("#{I18n.t('projects.attributes.name')}") v-model="project.name" /
-    .form-group
-      textarea.form-control placeholder=("#{I18n.t('projects.attributes.description')}") v-model="project.description"
-    button.btn.btn-primary v-on=("click: addProject") = I18n.t('projects.submit')
